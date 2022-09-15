@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Amita&family=Baloo+2:wght@500&family=Gotu&family=Halant:wght@300&family=Lato:wght@100&family=Nanum+Gothic&family=Rozha+One&display=swap");
+
+:root {
+  --primary-color: #f9a8d4;
+  --secondary-color: #fdf2f8;
+}
+* {
+  background-color: var(--primary-color);
+}
+.App {
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  font-family: "Alegreya", serif;
+  text-align: center;
+  font-family: "Rozha One", serif;
+}
+#categiri {
+  display: flex;
+}
+#categiri p {
+  background-color: var(--secondary-color);
+  padding: 0.3rem 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+hr {
+  background-color: black;
+}
+#output1,
+#output2 {
+  background-color: var(--secondary-color);
+  min-height: 1.3rem;
+  width: 15rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 1.5rem;
+  padding: 1rem;
+  text-align: left;
+}
+h3,
+p {
+  background-color: transparent;
+  margin: 0;
+}
